@@ -1,4 +1,4 @@
-#🤖 DeepSeek-RAG-Local-Vault
+##🤖 DeepSeek-RAG-Local-Vault
 基于 DeepSeek-R1 的全本地隐私增强知识库解决方案
 本项目是一个工业级的 RAG (Retrieval-Augmented Generation) 本地知识库应用。通过集成 DeepSeek-R1 推理模型和 ChromaDB 向量数据库，实现了在完全断网环境下对私有文档（PDF/TXT/MD）的智能检索与深度问答。
 
