@@ -17,3 +17,12 @@
 生成层 (Generation)：将上下文喂给 DeepSeek-R1 进行 Context-Aware 推理。
 应用层 (App)：Streamlit 驱动的交互式 Web 界面。
 🚀 快速开始 (Quick Start)
+1. 环境准备
+确保已安装 Ollama 并拉取所需模型：
+ollama pull deepseek-r1
+ollama pull nomic-embed-text
+2. 安装依赖
+pip install -r requirements.txt
+3. 运行应用
+由于 Windows 环境变量路径差异，建议使用 Python 模块方式启动：
+python -m streamlit run src/app.py
